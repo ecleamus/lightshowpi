@@ -92,7 +92,7 @@ from prepostshow import PrePostShow
 import RunningStats
 import socket
 
-# export SYNCHRONIZED_LIGHTS_HOME=/media/taylor/Data/Linux/Github/lightshowpi/
+SYNCHRONIZED_LIGHTS_HOME=r"/home/pi/lightshowpi/"
 computer_name = socket.gethostname()
 if computer_name == "G1G2Q13":
     os.environ['SYNCHRONIZED_LIGHTS_HOME'] = r"C:\Users\tarchibald\github\lightshowpi"
