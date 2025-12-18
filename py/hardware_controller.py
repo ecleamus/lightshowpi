@@ -759,7 +759,6 @@ def test():
         if answer in yes or answer in no:
             if answer in yes:
                 print("Great, your basic config is ready for you to start with\n\n")
-
                 sys.exit(1)
 
             if answer in no:
@@ -777,49 +776,6 @@ def test():
                 sys.exit(1)
 
         print("Please answer yes or no")
-
-
-# def main():
-# """main"""
-# hc.initialize()
-# hc.network.unset_playing()
-#
-#     if args.test:
-#         test()
-#         return
-#
-#     if args.cleanup:
-#         clean_up()
-#
-#     elif args.lights_off:
-#         for light in lights:
-#             light_off(light, False, 0.0)
-#
-#     elif args.lights_on:
-#         for light in lights:
-#             light_on(light, False, 1.0)
-#
-#     elif args.fade:
-#         fade()
-#
-#     elif args.flash:
-#         flash()
-#
-#     elif args.random_pattern:
-#         random_pattern()
-#
-#     elif args.cylon:
-#         cylon()
-#
-#     elif args.dance:
-#         dance()
-#
-#     elif args.step:
-#         step()
-#
-#     else:
-#         parser.print_help()
-
 
 def main():
     """main"""
