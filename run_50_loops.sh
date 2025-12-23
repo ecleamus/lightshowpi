@@ -9,7 +9,7 @@ do
     echo "Starting Loop #$COUNT of $MAX_LOOPS at $(date)"
     
     # Run the synchronized lights script [cite: 77]
-    #sudo python /home/pi/lightshowpi/py/synchronized_lights.py --playlist=/home/pi/lightshowpi/music/sample/.playlist
+    sudo python /home/pi/lightshowpi/py/synchronized_lights.py --playlist=/home/pi/lightshowpi/music/.playlist
     
     # Universal increment syntax
     COUNT=$(expr $COUNT + 1)
